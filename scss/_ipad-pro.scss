@@ -1,0 +1,279 @@
+@media (min-width : 1024px) and (max-width: 1365px) {
+
+ 
+  .logo {
+    font-size: 3em;
+  }
+
+  .homepage-header-1st-part, .homepage-header-2nd-part {
+    width: 20vw;
+  }
+
+  .header-icon {
+    display: inline-flex;
+    width: 3em;
+    height: 3em;
+  }
+
+  .fa-adjust {
+    font-size: 2em;
+  }
+
+  .fa-shopping-bag {
+    font-size: 2em;
+  }
+
+  .header-link {
+    font-size: 1.1em;
+  }
+
+  .header-button {
+    font-size: 1em;
+  }
+
+  .main-container {
+    padding-top: 10em;
+    height: 60vh;
+  }
+
+  .main-text {
+    margin-top: 0em;
+    width: 90vw;
+    font-size: 5em;
+  }
+
+  .main-buttons {
+    width: 50vw;
+    
+  }
+
+  .dark, .light {
+    font-size: 1.2em;
+    height: 3em;
+  }
+
+  .main-icons-container {
+    margin-top: 6em;
+    width: 30vw;
+  }
+
+  //WE SECTION
+
+  .we-container {
+    padding-top: 0;
+    margin-top: 250px;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: fit-content;
+
+    &-pic {
+      height: 30%;
+      width: 90%;
+    }
+
+    &-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding:  0;
+      width: 80%;
+      height: 500px;
+
+      &-text {
+        padding: 0;
+        font-size: 1em;
+        height: 20vh;
+      }
+
+      h2 {
+        margin-top: 0px;
+        text-align: center;
+        font-size: 2.5em;
+      }
+
+      .we-button {
+        display: inline-block;
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .foot-design-container {
+    justify-content: space-between;
+    padding-top: 5em;
+    height: 650px;
+
+    .foot-part {
+      width: 40%;
+
+      p {
+        line-height: 30px;
+      }
+    }
+
+    .design-part {
+
+      &-line {
+        width: 40%;
+      }
+    }
+
+  }
+
+  // CASE STUDY
+
+  .case-study-container {
+    padding-top: 8em;
+  }
+
+    // CASE STUDY
+    
+    .case-study-container {
+      padding-top: 6em;
+    }
+  
+    // PICTURES
+  
+    .pictures-section {
+      width: 80vw;
+  
+      .pictures-div {
+        height: 550px;
+        width: 350px;
+      }
+    }
+
+  // OWNERS
+
+  .owners-section {
+    flex-direction: column;
+
+    .owners-text {
+      text-align: justify;
+
+      i {
+        padding-top: 2em;
+      }
+
+      p {
+        width: 100%;
+      }
+    }
+    
+    .owners-pic {
+      margin: 0 auto;
+      width: 70%;
+      margin-top: 2em;
+    }
+    
+  }
+
+  //BRANDS
+
+  .brands-container {
+    padding: 80px 0;
+    flex-direction: column-reverse;
+    width: 90vw;
+    grid-column-gap: 0;
+
+    .brands-logos {
+      padding-top: 3em;
+      margin: 0;
+      justify-items: center;
+      grid-column-gap: 0em;
+      grid-row-gap: 2em;
+      grid-template-columns: repeat(3, 1fr);
+
+      img {
+        width: 150px;
+        height: 150px;
+      }
+    }
+
+    .brands-text {
+      display: flex;
+      justify-content: center;
+      font-size: 2em;
+      text-align: center;
+
+      h3 {
+
+        width: 80%;
+      }
+    }
+  }
+
+  // WORKERS
+
+  .workers-section {
+    padding: 0 0 16px 0;
+  }
+  
+  .workers-container {
+  
+    img {
+      width: 75%;
+      height: 500px;
+    }
+  }
+
+  // SERVICES
+
+  .services-section {
+    padding: 32px 0;
+  
+    .services-header {
+      
+      h3 {
+        width: 60%;
+      }
+    }
+  
+    .services-container {
+      padding: 60px 0;
+      width: 60%;
+    
+      .services-box {
+        width: 250px;
+        height: 200px;
+        background-color: #504a59;
+        color: $light-gray;
+        font-family: $basic-text;
+  
+      }
+    }
+  }
+
+  //FORM 
+
+  .form-container {
+    grid-column-gap: 100px;
+    .form-image {
+
+      img {
+        width: 450px;
+        height: 600px;
+      } 
+    }
+
+    .form-text {
+      width: 400px;
+
+      h3 {
+        font-size: 1.5em;
+      }
+
+      textarea {
+        height: 150px;
+      }
+    }
+  }
+
+   //MESSAGE
+
+   .message-section {
+    margin-top: 20px;
+  }
+}
